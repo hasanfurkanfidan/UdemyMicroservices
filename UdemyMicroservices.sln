@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C626C31B-8C6D-4CA2-A34B-FCE093DD28F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{97CC51A3-BEE8-42D8-9A76-E5FD6966AE20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyMicroservices.Services.Catalog", "Services\Catalog\UdemyMicroservices.Services.Catalog\UdemyMicroservices.Services.Catalog.csproj", "{63787B61-EFC3-4A58-98B0-A9258444F922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4FB2698C-70C7-4D55-AD74-5A17F9182DE1}"
+	ProjectSection(SolutionItems) = preProject
+		ports.txt = ports.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ACE5D5CC-3A4E-4B05-BA5F-86A48043F790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyMicroservices.Shared", "Shared\UdemyMicroservices.Shared\UdemyMicroservices.Shared.csproj", "{A165548C-4B96-431A-BE3D-55E669FFBC9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63787B61-EFC3-4A58-98B0-A9258444F922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63787B61-EFC3-4A58-98B0-A9258444F922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63787B61-EFC3-4A58-98B0-A9258444F922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63787B61-EFC3-4A58-98B0-A9258444F922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A165548C-4B96-431A-BE3D-55E669FFBC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A165548C-4B96-431A-BE3D-55E669FFBC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A165548C-4B96-431A-BE3D-55E669FFBC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A165548C-4B96-431A-BE3D-55E669FFBC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97CC51A3-BEE8-42D8-9A76-E5FD6966AE20} = {C626C31B-8C6D-4CA2-A34B-FCE093DD28F5}
+		{63787B61-EFC3-4A58-98B0-A9258444F922} = {97CC51A3-BEE8-42D8-9A76-E5FD6966AE20}
+		{A165548C-4B96-431A-BE3D-55E669FFBC9F} = {ACE5D5CC-3A4E-4B05-BA5F-86A48043F790}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA1F901D-B17E-4D75-895F-9C211EA97F1F}
+	EndGlobalSection
+EndGlobal
