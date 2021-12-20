@@ -24,10 +24,7 @@ namespace UdemyMicroservices.Services.Catalog
         {
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddAutoMapper(typeof(Startup));
-            services.AddSingleton<IDatabaseSettings>(sp =>
-            {
-                return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
-            });
+            services.AddSingleton<IDatabaseSettings>(sp => sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
