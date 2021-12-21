@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\Shared\UdemyMicroservices.Shared\UdemyMicroservices.Shared.csproj" />
   </ItemGroup>
 
